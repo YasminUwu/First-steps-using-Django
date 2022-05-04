@@ -23,6 +23,7 @@ from petclub.views import(
    # PetListAPIView,
 )
 
+
 urlpatterns = [
    # path('hi', HelloWorld.as_view(), name="helloworld"),
     path('persons', PersonView.as_view(), name="person"),
