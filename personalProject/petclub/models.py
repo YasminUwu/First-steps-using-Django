@@ -13,6 +13,7 @@ class Pet(models.Model):
     color = models.CharField(max_length=50)
     weight = models.IntegerField()
 
+
   #  object = PetManager()
     
     class Meta:
