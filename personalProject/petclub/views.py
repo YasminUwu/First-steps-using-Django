@@ -38,6 +38,7 @@ class PetView(APIView):
         return Response(data = "Hola gente, estoy en el delete", status = 200)
 
 
+
 '''class PetListAPIView(ListAPIView):
     def get(self, request):
         return Response(data="Hola a todos, estas son mis mascotas")
